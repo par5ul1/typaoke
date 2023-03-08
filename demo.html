@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typaoke Demo</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="src/typaoke.min.js" defer></script>
+</head>
+
+<body>
+  <div class="typaoke">
+    <p class="typaoke_content">
+      We're no strangers to love
+      You know the rules and so do I
+      A full commitment's what I'm thinking of
+      You wouldn't get this from any other guy
+      I just wanna tell you how I'm feeling
+      Gotta make you understand
+      Never gonna give you up
+      Never gonna let you down
+      Never gonna run around and desert you
+      Never gonna make you cry
+      Never gonna say goodbye
+      Never gonna tell a lie and hurt you
+    </p>
+  </div>
+</body>
+<style>
+  body {
+    height: 100vh;
+    background: rgb(236, 230, 75);
+    background: linear-gradient(142deg, rgba(236, 230, 75, 1) 8%, rgba(230, 171, 48, 1) 40%, rgba(240, 146, 220, 1) 86%);
+  }
+
+  .typaoke {
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .typaoke_untyped {
+    color: rgb(117, 117, 117);
+  }
+
+  .typaoke_typed {
+    color: rgb(0, 0, 0);
+  }
+</style>
+
+</html>
