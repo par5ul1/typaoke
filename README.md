@@ -4,7 +4,7 @@
 
 Just a simple JavaScript module to emulate the behavior of an online typing game, or as the name suggests, a karaoke scroll-sub (but with typing).
 
-[Live Demo]()
+[Live Demo](https://par5ul1.github.io/typaoke/demo)
 
 ## Setup
 
