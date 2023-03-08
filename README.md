@@ -17,7 +17,7 @@ Once you have jQuery, the module itself is super lightweight and you can just in
 <script src="src/typaoke.min.js" defer></script>
 ```
 
-If this gains *some* traction, I will probably host it on npm and some cdn aggregator out there but for now you can just use the [raw GitHub link]().
+If this gains *some* traction, I will probably host it on npm and some cdn aggregator out there but for now you can just use the [raw GitHub link](https://raw.githubusercontent.com/par5ul1/typaoke/master/src/typaoke.min.js) or download the source in your own project.
 
 ## Usage
 
