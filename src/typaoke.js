@@ -27,11 +27,11 @@ $(".typaoke").keypress(e => {
     index++;
   }
 
+  if (String.fromCharCode(e.which) == " ") {
+    e.preventDefault();
+  }
+
   if (index < characters.length && String.fromCharCode(e.which) == characters[index]) {
-    if (String.fromCharCode(e.which) == " ") {
-      e.preventDefault();
-    }
-    
     $("#typaoke_" + index++).attr("class", "typaoke_typed");
   }
 
